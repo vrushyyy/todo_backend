@@ -24,7 +24,7 @@ connection.connect(err => {
 })
 
 app.get('/', (req, res)  =>{
-    res.send('Hello world...');
+    res.send('Hello vrushali...');
 })
 
 app.get('/get_all', (req, res) => {
@@ -89,7 +89,7 @@ app.put('/update_todo/:id', (req, res) => {
         }
      })
 
-})
+}) 
 
 
 app.put('/done_todo/:id', (req, res) => {
@@ -136,7 +136,7 @@ app.delete('/delete_todo/:id' , (req, res) => {
      })
  
  })
-
+ 
 
 const port = 7377;
 app.listen(port);
